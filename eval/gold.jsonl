@@ -1,0 +1,42 @@
+{"qid": "q01", "type": "keyword", "query": "SLA розгляду резюме ATS", "expected_docs": ["doc01"]}
+{"qid": "q02", "type": "keyword", "query": "GDPR Right to be Forgotten години видалення", "expected_docs": ["doc02"]}
+{"qid": "q03", "type": "keyword", "query": "погодження оферу перевищення вилки понад 10% CFO", "expected_docs": ["doc03"]}
+{"qid": "q04", "type": "keyword", "query": "Reference Check поточний роботодавець дозвіл", "expected_docs": ["doc04"]}
+{"qid": "q05", "type": "keyword", "query": "Zero Ghosting Policy лист-відмова термін", "expected_docs": ["doc05"]}
+{"qid": "q06", "type": "keyword", "query": "реферальний бонус Middle Senior USD", "expected_docs": ["doc06"]}
+{"qid": "q07", "type": "keyword", "query": "сліпий скринінг тестових завдань Unconscious Bias", "expected_docs": ["doc07"]}
+{"qid": "q08", "type": "keyword", "query": "X-Ray пошук site:linkedin.com/in/ Embedded", "expected_docs": ["doc08"]}
+{"qid": "q09", "type": "keyword", "query": "STAR Situation Task Action Result", "expected_docs": ["doc09"]}
+{"qid": "q10", "type": "keyword", "query": "Live-coding Big O Edge Cases", "expected_docs": ["doc10"]}
+{"qid": "q11", "type": "keyword", "query": "Halo Effect Affinity Bias інтерв'ю", "expected_docs": ["doc11"]}
+{"qid": "q12", "type": "keyword", "query": "код відмови REJ-COMP ATS", "expected_docs": ["doc25"]}
+{"qid": "q13", "type": "paraphrase", "query": "Скільки робочих днів має технічна команда на відповідь щодо співбесіди?", "expected_docs": ["doc01"]}
+{"qid": "q14", "type": "paraphrase", "query": "Як довго компанія може тримати резюме кандидата у базі талантів?", "expected_docs": ["doc02"]}
+{"qid": "q15", "type": "paraphrase", "query": "Що робити, якщо поточна фірма переманює кандидата вищою зарплатою?", "expected_docs": ["doc03"]}
+{"qid": "q16", "type": "paraphrase", "query": "Для яких посад обов'язково збирати відгуки з попередніх місць роботи?", "expected_docs": ["doc04"]}
+{"qid": "q17", "type": "paraphrase", "query": "Які слова заборонено писати кандидатам у повідомленні про відмову?", "expected_docs": ["doc05"]}
+{"qid": "q18", "type": "paraphrase", "query": "Коли діючий працівник може перейти на іншу позицію всередині фірми?", "expected_docs": ["doc06"]}
+{"qid": "q19", "type": "paraphrase", "query": "Як скласти логічний запит із дужками та операторами для пошуку Python розробника?", "expected_docs": ["doc08"]}
+{"qid": "q20", "type": "paraphrase", "query": "Які ознаки нещирої або слабкої відповіді на поведінковому інтерв'ю?", "expected_docs": ["doc09"]}
+{"qid": "q21", "type": "paraphrase", "query": "Скільки годин має займати домашнє тестове завдання замість лайвкодингу?", "expected_docs": ["doc10"]}
+{"qid": "q22", "type": "paraphrase", "query": "Чому не варто додавати в опис вакансії занадто багато обов'язкових технологій?", "expected_docs": ["doc12"]}
+{"qid": "q23", "type": "paraphrase", "query": "Скільки нагадувань можна надіслати розробнику, якщо він ігнорує перше повідомлення?", "expected_docs": ["doc13"]}
+{"qid": "q24", "type": "paraphrase", "query": "Який відсоток прийнятих пропозицій вважається нормою для IT-рекрутингу?", "expected_docs": ["doc15"]}
+{"qid": "q25", "type": "paraphrase", "query": "Які протоколи передачі даних має знати програміст мікроконтролерів STM32?", "expected_docs": ["doc20"]}
+{"qid": "q26", "type": "paraphrase", "query": "Що буде, якщо хоча б один інтерв'юер поставить оцінку 1 у картці кандидата?", "expected_docs": ["doc24"]}
+{"qid": "q27", "type": "multi_hop", "query": "Яка зарплатна вилка для Middle Python розробника та хто затверджує оффер при перевищенні на 15%?", "expected_docs": ["doc23", "doc03"]}
+{"qid": "q28", "type": "multi_hop", "query": "Скільки триває випробувальний термін, коли проводиться фінальне оцінювання та коли виплачується реферальний бонус?", "expected_docs": ["doc26", "doc06"]}
+{"qid": "q29", "type": "multi_hop", "query": "Які вимоги до баз даних для Python Backend Developer та як побудувати Boolean запит для його пошуку?", "expected_docs": ["doc16", "doc08"]}
+{"qid": "q30", "type": "multi_hop", "query": "Як оцінюється рівень Junior L1 за матрицею компетенцій та яка для нього встановлена зарплата?", "expected_docs": ["doc22", "doc23"]}
+{"qid": "q31", "type": "multi_hop", "query": "Які інструменти тестування API потрібні QA Engineer і який код відмови ставиться при слабких технічних знаннях?", "expected_docs": ["doc17", "doc25"]}
+{"qid": "q32", "type": "multi_hop", "query": "Як поєднати сліпий скринінг та шкалу Scorecard 1-4 для зниження когнітивних упереджень?", "expected_docs": ["doc07", "doc24"]}
+{"qid": "q33", "type": "multi_hop", "query": "Який SLA заповнення Scorecard після співбесіди і за скільки днів надсилається фідбек після відмови?", "expected_docs": ["doc01", "doc05"]}
+{"qid": "q34", "type": "multi_hop", "query": "Які вимоги до Linux та Docker для Junior DevOps і яка максимальна вилка з урахуванням коефіцієнта дефіцитності?", "expected_docs": ["doc18", "doc23"]}
+{"qid": "q35", "type": "multi_hop", "query": "Як проводиться перегляд компенсації після випробувального терміну, якщо кандидат стартував нижче своїх очікувань?", "expected_docs": ["doc14", "doc26"]}
+{"qid": "q36", "type": "multi_hop", "query": "Що таке Time-to-Hire та які зустрічі проводяться на Intake-етапі перед стартом пошуку?", "expected_docs": ["doc15", "doc01"]}
+{"qid": "q37", "type": "unanswerable", "query": "Яка ставка податку на дивіденди для резидентів Дія.City у 2026 році?", "expected_docs": []}
+{"qid": "q38", "type": "unanswerable", "query": "Налаштування SMTP-сервера для інтеграції пошти з SAP SuccessFactors", "expected_docs": []}
+{"qid": "q39", "type": "unanswerable", "query": "Порядок оформлення робочої візи Blue Card у Німеччині для іноземних підрядників", "expected_docs": []}
+{"qid": "q40", "type": "unanswerable", "query": "Норми видачі спецодягу та засобів індивідуального захисту для працівників складу", "expected_docs": []}
+{"qid": "q41", "type": "unanswerable", "query": "Розрахунок амортизації серверного обладнання в бухгалтерському обліку", "expected_docs": []}
+{"qid": "q42", "type": "unanswerable", "query": "Правила проведення медичного огляду водіїв перед виїздом на маршрут", "expected_docs": []}
